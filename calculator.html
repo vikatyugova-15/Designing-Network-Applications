@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body> 
+    <h1 class="my-name"> Ипотечный калькулятор </h1>
+    <p style="color: black; font-size: 1.2rem;"> <mark style="background: #228B22;">Знакомство</mark> с инструментами построения пользовательских интерфейсов web-сайтов: <mark style="background: #228B22;">HTML, CSS.</mark></p>
+    <div>
+        <div id="result" class="result">
+            0
+        </div>
+        <label for="bank" class="theme_bank">Выберите банк:</label>
+        <select id="bank" name="bank" class="theme_bank_opt">
+            <option value="Sber">Сбербанк</option>
+            <option value="VTB">ВТБ</option>
+        </select>
+        <div>
+            <div>
+                <button id="btn_op_clear" class="my-btn sacondary">C</button>
+                <button id="btn_op_sign" class="my-btn sacondary">+/-</button>
+                <button id="btn_op_percent" class="my-btn sacondary">%</button>
+                <button id="btn_op_div" class="my-btn primary">/</button>
+                <button id="btn_op_sqrt" class="my-btn primary">√</button>
+                <button id="btn_first_vznos" class="theme" title="Рассчет минимального первоночального взноса по ипотеке">Рассчитать</button>
+            </div>
+
+            <div>
+                <button id="btn_digit_7" class="my-btn">7</button>
+                <button id="btn_digit_8" class="my-btn">8</button>
+                <button id="btn_digit_9" class="my-btn">9</button>
+                <button id="btn_op_mult" class="my-btn primary">x</button>
+                <button id="btn_op_square" class="my-btn primary">^2</button>
+                <button id="btn_link" class="theme"><a href="https://github.com" target="_blank">GITHUB</a></button>
+            </div>
+
+            <div>
+                <button id="btn_digit_4" class="my-btn">4</button>
+                <button id="btn_digit_5" class="my-btn">5</button>
+                <button id="btn_digit_6" class="my-btn">6</button>
+                <button id="btn_op_minus" class="my-btn primary">-</button>
+                <button id="btn_op_fuctorial" class="my-btn primary">x!</button>
+                <button id="btn_change_theme" class="theme dark">Сменить тему</button>
+            </div>
+
+            <div>
+                <button id="btn_digit_1" class="my-btn">1</button>
+                <button id="btn_digit_2" class="my-btn">2</button>
+                <button id="btn_digit_3" class="my-btn">3</button>
+                <button id="btn_op_plus" class="my-btn primary">+</button>
+                <button id="btn_op_zero" class="my-btn primary">000</button>
+                <button id="btn_change_result_color" class="theme result-dark">Цвет результата</button>
+            </div>
+
+            <div>
+                <button id="btn_digit_0" class="my-btn">0</button>
+                <button id="btn_digit_dot" class="my-btn">.</button>
+                <button id="btn_op_equal" class="my-btn primary execute">=</button>
+                <button id="btn_op_backspace" class="my-btn primary execute">BS</button>
+            </div>
+        </div>
+    </div>
+    <div class="demo">
+    <input type="checkbox" id="hd-1" class="hide"/>
+    <label for="hd-1" >Нажмите, чтобы узнать, кто автор: </label>
+    <div>
+        Работу выполнил студент группы РТ5-41б Тюгова Виктория 
+    </div>
+</body>
+</html>
