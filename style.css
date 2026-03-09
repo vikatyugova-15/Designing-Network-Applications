@@ -1,0 +1,144 @@
+body {
+    background-color: #e1f7ee;
+    /*background-image: url('image.jpg'); */
+    background-size: cover;
+}
+
+.dark {
+    background-color: black;
+    color:#F8F8FF;
+}
+
+.result.result-dark {
+    background-color: #006400;
+}
+
+.my-btn {
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    border: none;
+    background: #C0C0C0;
+    color: white;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+
+    user-select: none;
+}
+
+.my-name{
+    text-align: left;
+    color: black;
+    font-size: 3.5rem;           
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+}
+
+.my-btn:hover { 
+    background: #A9A9A9;
+}
+
+.my-btn:active {
+    filter: brightness(130%)
+}
+
+.my-btn.primary {
+    background: #21A038
+}
+
+.my-btn.secondary {
+    background: #a6a6a6
+}
+
+.my-btn.execute {
+    width: 100px;
+    border-radius: 35px;
+}
+
+.result {
+    width: 400px;
+    padding: 8px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding-right: 20px;
+    background: #21A038;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 100px;
+}
+
+.theme {
+    width: 150px;
+    height: 75px;
+    border-radius: 25px;
+    text-align: center;
+    background: linear-gradient(90deg, #00FF00, #008080);
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.theme_bank {
+    color: black;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.theme_bank_opt {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    background: #C0C0C0;
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.hide {
+    display: none; 
+}
+.hide + label ~ div{
+    display: none;
+}
+
+.hide + label {
+    border-bottom: 1px dotted #F0FFF0;
+    padding: 0;
+    color: black;
+    cursor: pointer;
+    display: inline-block; 
+}
+
+.hide:checked + label {
+    color: #228B22;
+    border-bottom: 0;
+}
+
+.hide:checked + label + div {
+    display: block; 
+    background: #A9A9A9;
+    -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
+    -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
+    box-shadow: inset 3px 3px 10px #7d8e8f;
+    padding: 10px; 
+}
+
+
+.demo {
+    margin: 5% 10%;
+}
